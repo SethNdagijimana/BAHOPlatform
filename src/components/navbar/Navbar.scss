@@ -1,0 +1,54 @@
+@import "../../global.scss";
+.navbar {
+    background: linear-gradient(90deg, rgb(252, 252, 253) 0%, rgb(255, 255, 255) 100%);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    // padding:30px 100px;
+    align-items: center;
+    justify-content: space-between;
+    // justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar .logo{
+    color: #2F59D6;
+}
+
+.navbar-list {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #000;;
+}
+
+.navbar-list .home {
+    color: #000;;
+    font-weight: bold;
+}
+
+.navbar-list .sign-up{
+    border: 1px solid #2F59D6;
+    color: white;
+    background-color: #2F59D6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.navbar-list .sign-in{
+    color: white;
+    background-color: #2F59D6;
+    border: 1px solid #2F59D6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
