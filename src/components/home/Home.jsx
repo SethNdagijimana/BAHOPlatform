@@ -23,8 +23,10 @@ useEffect(()=>{
         
         <div className="wrapper">
                   
+                 
+                  {/* <h2>hey</h2> */}
                   <h1>BAHO</h1>
-                  <h2>hey</h2>
+                  {/* <h1>BAHO</h1> */}
                   
                   <h3>We Care For <span ref={textRef}></span></h3>
                 </div> 
