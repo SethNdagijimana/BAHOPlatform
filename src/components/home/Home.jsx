@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import "./Home.scss";
 import {init} from 'ityped';
-
+import Footer from './Footer';
 
 
 
@@ -30,7 +30,9 @@ useEffect(()=>{
                   
                   <h3>We Care For <span ref={textRef}></span></h3>
                 </div> 
+                <Footer />
         </div>
+       
   )
 }
 

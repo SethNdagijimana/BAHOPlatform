@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Navbar.scss";
+import {Link} from "react-router-dom";
 
 class Navbar extends Component {
 
@@ -10,9 +11,9 @@ class Navbar extends Component {
                 <h1 className="logo">BAHO</h1>
 
                 <ul className="navbar-list">
-                    <li><a className='home' href ="null">Home</a></li>
-                    <li><a  href ="About">About</a></li>
-                    <li><a  href ="null">Contact</a></li>
+                    <li><Link to ="/home">Home</Link></li>
+                    <li><Link to ="/about">About</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                     <li><a className='sign-in' href ="null">SIGN IN</a></li>
                     <li><a className='sign-up' href ="null">SIGN UP</a></li>
                 </ul>
