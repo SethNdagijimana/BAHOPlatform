@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BAHOPlatform/static/css/main.14d2ca2e.css",
-    "main.js": "/BAHOPlatform/static/js/main.a0dbcaa6.js",
-    "static/media/background.png": "/BAHOPlatform/static/media/background.6be9f4f9d763ec6ebd6b.png",
+    "main.css": "/BAHOPlatform/static/css/main.9b943719.css",
+    "main.js": "/BAHOPlatform/static/js/main.5998d411.js",
+    "static/media/bg.jpg": "/BAHOPlatform/static/media/bg.16b387d7b4da75f772ea.jpg",
     "index.html": "/BAHOPlatform/index.html",
-    "main.14d2ca2e.css.map": "/BAHOPlatform/static/css/main.14d2ca2e.css.map",
-    "main.a0dbcaa6.js.map": "/BAHOPlatform/static/js/main.a0dbcaa6.js.map"
+    "main.9b943719.css.map": "/BAHOPlatform/static/css/main.9b943719.css.map",
+    "main.5998d411.js.map": "/BAHOPlatform/static/js/main.5998d411.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d2ca2e.css",
-    "static/js/main.a0dbcaa6.js"
+    "static/css/main.9b943719.css",
+    "static/js/main.5998d411.js"
   ]
 }
