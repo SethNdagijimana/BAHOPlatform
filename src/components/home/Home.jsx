@@ -1,8 +1,10 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import "./Home.scss";
+// import background from "../../assets/background.png";
 import {init} from 'ityped';
 import Testimonials from "./Testimonials";
+import { AiOutlineArrowRight} from "react-icons/ai";
 
 
 
@@ -14,22 +16,29 @@ useEffect(()=>{
         showCursor: true,
         backDelay: 1500,
         backSpeed: 60,
-        strings: [" Rwandan Youth", "Rwandan People"]
+        strings: [" Because Life is a Beautiful Thing And", "There is so much to smile about"]
     })
 
 },[])
   return (
     <div className='home_container'>
+
+      {/* <img src={background} alt="background"></img> */}
         
         <div className="wrapper">
-                  
-                 
-                  {/* <h2>hey</h2> */}
-                  <h1>BAHO</h1>
+            {/* <h2>hey</h2> */}
+            <h1>BAHO</h1>
                   {/* <h1>BAHO</h1> */}
                   
-                  <h3>We Care For <span ref={textRef}></span></h3>
+                  <h3>Keep Smiling, <span ref={textRef}></span></h3>
                 </div> 
+              
+             <button className="readmore"> Read more <AiOutlineArrowRight /></button>
+
+        
+                  
+                 
+                
                <Testimonials />
         </div>
        
