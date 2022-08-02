@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Navbar.scss";
 import {Link} from "react-router-dom";
 
-class Navbar extends Component {
+function Navbar () {
 
-    
-    render() {
         return (
             <div className="navbar">
                 <h1 className="logo">BAHO</h1>
@@ -14,12 +12,13 @@ class Navbar extends Component {
                     <li><Link to ="/home">Home</Link></li>
                     <li><Link to ="/about">About</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><a className='sign-in' href ="null">Log IN</a></li>
-                    <li><a className='sign-up' href ="null">join US</a></li>
+                    <li><Link to="/login">Log In</Link></li>
+                    <li><Link to="/signup">join Us</Link></li>
                 </ul>
+                
             </div>
         );
     }
-}
+
 
 export default Navbar;

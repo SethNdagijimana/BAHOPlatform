@@ -22,13 +22,11 @@ useEffect(()=>{
 },[])
   return (
     <div className='home_container'>
-
-      {/* <img src={background} alt="background"></img> */}
         
         <div className="wrapper">
-            {/* <h2>hey</h2> */}
+          
             <h1>BAHO</h1>
-                  {/* <h1>BAHO</h1> */}
+            
                   
                   <h3>Keep Smiling, <span ref={textRef}></span></h3>
                 </div> 
