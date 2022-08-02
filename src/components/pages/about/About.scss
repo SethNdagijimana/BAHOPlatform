@@ -1,58 +1,135 @@
-.navbar {
-    background: linear-gradient(90deg, rgb(252, 252, 253) 0%, rgb(255, 255, 255) 100%);
-    height: 80px;
-    width: 100%;
+
+
+.testimonials{
+    background-color: white;
     display: flex;
-    // padding:30px 100px;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    // justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: fixed;
-    top: 0;
-    z-index: 999;
+
+    // @include mobile{
+    //     justify-content: space-around;
+    // }
+    
+    h1{
+        font-size: 50px;
+        padding: 20px; 
+        
+        // @include mobile{
+        //     font-size: 20px;
+        // }
+    }
+
+    .container{
+        width: 100%; 
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // @include mobile{
+        //     flex-direction: column;
+        //     height: 100%;
+        // }
+
+        .card{
+            width: 250px;
+            height: 70%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px -8px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            transition: all 1s ease-in-out;
+
+            // @include mobile{
+            //   height: 180px;
+            //   margin: 10px 0;
+            // }
+
+            &.featured{
+                width: 300px;
+                height: 75%;
+                margin: 0 30px;
+
+                // @include mobile{
+                //   width: 250px;
+                //   height: 180px;
+                //   margin: 1px;
+                // }
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img{
+                    &.left,&.right{
+                        height: 25px;
+                    }
+                    &.user{
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin: 0 30px;
+
+                        // @include mobile{
+                        //     width: 30px;
+                        //     height: 30px;
+                        // }
+                    }
+                }
+            }
+
+            .center{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: rgb(250, 244, 245);
+                font-weight: 400;
+                color: rgb(53, 53, 163);
+                font-family: 'Times New Roman', Times, serif;
+
+                // @include mobile{
+                //     font-size: 12px;
+                //     padding: 5px;    
+                // }
+            } 
+            .bottom{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                
+
+                h3{
+                    margin-bottom: 5px;
+
+                    // @include mobile{
+                    //     font-size:14px;
+                    // }
+                }
+
+                h4{
+                    color: grey;
+
+                    // @include mobile{
+                    //     font-size:13px;
+                    // }
+                }
+
+            }
+        }
+    }
 }
 
-.navbar .logo{
-    padding: 20px;
-    color: #2F59D6;
-    text-decoration:none;
+.footer{
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(121, 111, 111);
 }
-
-.navbar-list {
-    width: 40%;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.navbar-list a {
-    text-decoration: none;
-    color: #000;;
-}
-
-.navbar-list .home {
-
-    color: #000;;
-    font-weight: bold;
-}
-
-.navbar-list .sign-up{
-    border: 1px solid #2F59D6;
-    color: white;
-    background-color: #2F59D6;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-.navbar-list .sign-in{
-    color: white;
-    background-color: #2F59D6;
-    border: 1px solid #2F59D6;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-
