@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import "./Impact.scss";
 import {init} from 'ityped';
-import About from "./About";
+// import About from "./About";
 
 function Impact() {
 
@@ -29,7 +29,7 @@ function Impact() {
                 </div> 
 
                 
-                <About />
+                {/* <About /> */}
 
     </div>
   )
