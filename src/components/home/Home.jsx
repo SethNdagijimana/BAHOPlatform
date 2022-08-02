@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import "./Home.scss";
 import {init} from 'ityped';
-import Footer from './Footer';
+import Testimonials from "./Testimonials";
 
 
 
@@ -14,7 +14,7 @@ useEffect(()=>{
         showCursor: true,
         backDelay: 1500,
         backSpeed: 60,
-        strings: ["Youth", "People", "Rwanda"]
+        strings: [" Rwandan Youth", "Rwandan People"]
     })
 
 },[])
@@ -30,7 +30,7 @@ useEffect(()=>{
                   
                   <h3>We Care For <span ref={textRef}></span></h3>
                 </div> 
-                <Footer />
+               <Testimonials />
         </div>
        
   )

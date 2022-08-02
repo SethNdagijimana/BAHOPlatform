@@ -14,8 +14,8 @@ class Navbar extends Component {
                     <li><Link to ="/home">Home</Link></li>
                     <li><Link to ="/about">About</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><a className='sign-in' href ="null">SIGN IN</a></li>
-                    <li><a className='sign-up' href ="null">SIGN UP</a></li>
+                    <li><a className='sign-in' href ="null">Log IN</a></li>
+                    <li><a className='sign-up' href ="null">join US</a></li>
                 </ul>
             </div>
         );
