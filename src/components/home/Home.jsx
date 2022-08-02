@@ -14,8 +14,8 @@ function Home() {
 useEffect(()=>{
     init(textRef.current, {
         showCursor: true,
-        backDelay: 1500,
-        backSpeed: 60,
+        backDelay: 1200,
+        backSpeed: 80,
         strings: [" Because Life is a Beautiful Thing And", "There is so much to smile about"]
     })
 
