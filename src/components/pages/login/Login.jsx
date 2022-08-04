@@ -1,45 +1,33 @@
 import React from 'react';
 import "./Login.scss";
-import background from "../../../assets/bg.jpg";
+import {Link} from "react-router-dom";
 
-function Login(){
-
-return(
-
-    <div>
-        
-        
-
-        <img src={background} alt="background"></img>
-        
-       
-                <div className="form_container">
-                    <h3>LOG IN</h3>
-                    <div className="credentials">
-                    <input type="email or phone number "name="email or phone number" placeholder="Email or phone number"></input>
-                    <input type="password "name="password" placeholder="password"></input>
-                    </div>
-                    
-               
-
-                <div className="word">
-                    <input type="checkbox" ></input>
-
-                    <p>Remember me</p>
-
-                        <p>forgot password?</p>
-
-                          <button className='log'>Log in</button>
-                        
-                           <p className="link">Don't have an account ? SIGNUP</p> 
-
-                </div>
-                
-                </div>
-                          
+function Login() {
+  return (
+    <div className="form">
+         
+    <div className="log">
+    <h1>Log In</h1>
+    <label>Enter Your Username or Email</label>
+        <input type="text" placeholder="Enter Your Username or Email" >
+         
+        </input>
+        <label>Enter Your Password</label>
+        <input type="password" placeholder="Enter Your Password" ></input>
+        <div className='remember'>
+            <input type="checkbox"></input>
+            <p>Remember me</p>
+            <p><Link to="/reset">Forgot Password </Link></p>
+        </div>
+        <div className="btn">
+        <button type="subtmit" className="btn">LogIn</button>
+        </div> 
     </div>
-)
-}
 
+ 
+
+    </div>
+  )
+}
 
 export default Login
