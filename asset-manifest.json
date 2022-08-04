@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BAHOPlatform/static/css/main.550fcc97.css",
+    "main.css": "/BAHOPlatform/static/css/main.be677a17.css",
     "main.js": "/BAHOPlatform/static/js/main.6c4289dc.js",
     "static/media/bg.jpg": "/BAHOPlatform/static/media/bg.16b387d7b4da75f772ea.jpg",
     "index.html": "/BAHOPlatform/index.html",
-    "main.550fcc97.css.map": "/BAHOPlatform/static/css/main.550fcc97.css.map",
+    "main.be677a17.css.map": "/BAHOPlatform/static/css/main.be677a17.css.map",
     "main.6c4289dc.js.map": "/BAHOPlatform/static/js/main.6c4289dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.550fcc97.css",
+    "static/css/main.be677a17.css",
     "static/js/main.6c4289dc.js"
   ]
 }
