@@ -9,13 +9,13 @@
     align-items: center;
     font-size: 1.2rem;
     position: fixed;
-    top: 0;
-    z-index: 999;
+    // top: 0;
+    z-index: 1;
     border-bottom: 2px solid rgb(226, 226, 228);
 }
 
 .navbar .logo{
-    padding: 20px;
+    padding: 10px;
     font-size: 24px;
     color: #2F59D6;
     text-decoration:none;
