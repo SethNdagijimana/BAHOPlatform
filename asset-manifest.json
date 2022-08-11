@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/BAHOPlatform/static/css/main.18eef03a.css",
-    "main.js": "/BAHOPlatform/static/js/main.63e6ec12.js",
-    "static/media/bg.jpg": "/BAHOPlatform/static/media/bg.16b387d7b4da75f772ea.jpg",
-    "static/media/BAHO-logos_black.png": "/BAHOPlatform/static/media/BAHO-logos_black.a651f143b55939c3412f.png",
-    "static/media/me.jpg": "/BAHOPlatform/static/media/me.f7de35e259b807e6b917.jpg",
+    "main.css": "/BAHOPlatform/static/css/main.d21fca0d.css",
+    "main.js": "/BAHOPlatform/static/js/main.66bec1d4.js",
+    "static/media/background.png": "/BAHOPlatform/static/media/background.6be9f4f9d763ec6ebd6b.png",
     "index.html": "/BAHOPlatform/index.html",
-    "main.18eef03a.css.map": "/BAHOPlatform/static/css/main.18eef03a.css.map",
-    "main.63e6ec12.js.map": "/BAHOPlatform/static/js/main.63e6ec12.js.map"
+    "main.d21fca0d.css.map": "/BAHOPlatform/static/css/main.d21fca0d.css.map",
+    "main.66bec1d4.js.map": "/BAHOPlatform/static/js/main.66bec1d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.18eef03a.css",
-    "static/js/main.63e6ec12.js"
+    "static/css/main.d21fca0d.css",
+    "static/js/main.66bec1d4.js"
   ]
 }
