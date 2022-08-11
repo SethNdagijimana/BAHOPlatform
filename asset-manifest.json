@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/BAHOPlatform/static/css/main.d21fca0d.css",
-    "main.js": "/BAHOPlatform/static/js/main.66bec1d4.js",
-    "static/media/background.png": "/BAHOPlatform/static/media/background.6be9f4f9d763ec6ebd6b.png",
+    "main.css": "/BAHOPlatform/static/css/main.48193f40.css",
+    "main.js": "/BAHOPlatform/static/js/main.1bc8b566.js",
+    "static/media/bg.jpg": "/BAHOPlatform/static/media/bg.16b387d7b4da75f772ea.jpg",
+    "static/media/1.jpg": "/BAHOPlatform/static/media/1.cded7806f58302813473.jpg",
+    "static/media/BAHO-logos_black.png": "/BAHOPlatform/static/media/BAHO-logos_black.a651f143b55939c3412f.png",
+    "static/media/me.jpg": "/BAHOPlatform/static/media/me.f7de35e259b807e6b917.jpg",
     "index.html": "/BAHOPlatform/index.html",
-    "main.d21fca0d.css.map": "/BAHOPlatform/static/css/main.d21fca0d.css.map",
-    "main.66bec1d4.js.map": "/BAHOPlatform/static/js/main.66bec1d4.js.map"
+    "main.48193f40.css.map": "/BAHOPlatform/static/css/main.48193f40.css.map",
+    "main.1bc8b566.js.map": "/BAHOPlatform/static/js/main.1bc8b566.js.map"
   },
   "entrypoints": [
-    "static/css/main.d21fca0d.css",
-    "static/js/main.66bec1d4.js"
+    "static/css/main.48193f40.css",
+    "static/js/main.1bc8b566.js"
   ]
 }
