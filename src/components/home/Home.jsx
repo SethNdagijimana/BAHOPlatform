@@ -5,6 +5,7 @@ import "./Home.scss";
 import {init} from 'ityped';
 import Testimonials from "./Testimonials";
 import { AiOutlineArrowRight} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 
 
@@ -25,13 +26,13 @@ useEffect(()=>{
         
         <div className="wrapper">
           
-            <h1>BAHO</h1>
+            {/* <h1>BAHO</h1> */}
             
                   
                   <h3>Keep Smiling, <span ref={textRef}></span></h3>
                 </div> 
               
-             <button className="readmore"> Read more <AiOutlineArrowRight /></button>
+           <Link to="/signup"> <button className="readmore"> Read more <AiOutlineArrowRight /></button> </Link>
 
         
                   

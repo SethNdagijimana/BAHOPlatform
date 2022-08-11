@@ -15,7 +15,7 @@ function Login() {
   };
   return (
     <div className="form-signup">
-      <img className="image" src={images} alt=""></img>
+      <img className="images" src={images} alt=""></img>
      
     <div className="signup">
     <h1>Create Account</h1>
@@ -62,6 +62,9 @@ function Login() {
                     />
                   </div>
                 )}
+                <div className='btn-signup'>
+        <button type="submit" className="btn-signup">Sign Up</button>
+        </div>
         
         <div className='checkin'>
           
@@ -77,9 +80,7 @@ function Login() {
         
           </div>
           </div>
-        <div className='btn-signup'>
-        <button type="subtmit" className="btn-signup">Submit</button>
-        </div> 
+         
     </div>
 
  

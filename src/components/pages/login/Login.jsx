@@ -1,7 +1,8 @@
 import React, {useState}from 'react';
 import "./Login.scss";
 import {Link} from "react-router-dom";
-import images from "../../../resources/me.jpg";
+import images from "../../../resources/1.jpg";
+// import img from "../../../resources/Vector (1).png"
 import * as AiIcons from "react-icons/ai";
 
 
@@ -18,6 +19,7 @@ function Login() {
       <img className="image" src={images} alt=""></img>
      
     <div className="log">
+      {/* <img className="img" src={img} alt="avatar"></img> */}
     <h1>Log In</h1>
     {/* <label>Enter Your Username or Email</label> */}
         <input type="text" placeholder="Enter Your Username or Email" >
