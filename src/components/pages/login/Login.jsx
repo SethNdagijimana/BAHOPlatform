@@ -50,11 +50,11 @@ function Login() {
         </div>
         
         <div className="forgot">
-        <p><Link to="/reset">Forgot Password </Link></p>
+        <Link to="/forgot"><p>Forgot Password </p></Link>
           </div>
           </div>
         <div className='btn-login'>
-        <button type="subtmit" className="btn-login">LogIn</button>
+        <Link to="/dashboard"><button type="subtmit" className="btn-login">LogIn</button></Link>
         </div> 
     </div>
 
