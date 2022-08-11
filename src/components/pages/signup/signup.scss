@@ -16,7 +16,7 @@
   
 }
 
-  .image{
+  .images{
     position: absolute;
     // padding: 0;
     width: 55%;
@@ -181,20 +181,20 @@
 .btn-signup{
 
   // padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 60px;
+  // margin-left: 10px;
+  // margin-bottom: 60px;
   width: 400px;
   height: 45px;
-  // left: 762px;
-  // top: 605px;
-  
-  // background: #042C7B;
+  color: white;  
+  background: #011f5a;
   border-radius: 60px;
   cursor: pointer;
+ 
 
   .btn-signup:hover{
-    color: white;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #4873B5;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #020347;
+    
     
   }
 }

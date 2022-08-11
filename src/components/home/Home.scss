@@ -27,7 +27,7 @@
     h1{
         font-size: 60px;
         margin: 10px 0;
-        color: rgba(0,0, 0, 0.8);
+        color: rgb(0, 0, 0);
 
         // @include mobile{
         //     font-size: 40px;
@@ -35,11 +35,11 @@
     }
     h2{
         font-size: 35px;
-        color: rgba(0,0, 0, 0.8);
+        color: rgb(0, 0, 0);
     }
     h3{
         font-size: 30px;
-        color: rgba(0,0, 0, 0.8);
+        color: rgb(0, 0, 0);
         
         // @include mobile{
         //     font-size: 20px;
@@ -47,7 +47,7 @@
 
         span{
             font-size: inherit;
-            color: white
+            color: rgb(0, 4, 255)
         }
 
         .ityped-cursor{
@@ -69,16 +69,16 @@
 .readmore {
     position: absolute;
     width: 20%;
-    height: 56px;
+    height: 52px;
     left: 522px;
     top: 457px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #4873B5;
     border-radius: 50px;
-    // font-family: 'Open Sans';
+    font-family: 'Open Sans';
     // font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    // line-height: 32px;
+    line-height: 32px;
     /* or 160% */
     color: white;
     display: flex;
@@ -86,7 +86,47 @@
     text-align: center;
     padding-left: 60px ;
     margin: 20px ;
-
+    cursor: pointer;
+    gap: 40px;
+   
     
         
 }
+
+//  @media screen and (max-width: 500px) {
+//     .wrapper{
+        
+//         padding-left: 0;
+//         align-items: center;
+
+//     }
+//     .home_container{
+//         background: none;
+//         padding: 0;
+//         // display: flex;
+//     }
+  
+// //      .readmore{
+// //         // position: relative;
+// //     width: 20%;
+// //     height: 20px;
+// //     // left: 522px;
+// //     top: 457px;
+// //     // background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #4873B5;
+// //     border-radius: 50px;
+// //     font-family: 'Open Sans';
+// //     // font-style: normal;
+// //     font-weight: 400;
+// //     font-size: 20px;
+// //     line-height: 32px;
+// //     /* or 160% */
+// //     color: white;
+// //     // display: flex;
+// //     // align-items: center;
+// //     // text-align: center;
+// //     // padding-left: 60px ;
+// //     // margin: 20px ;
+// //     cursor: pointer;
+// //     gap: 40px;
+// //      }
+// }
