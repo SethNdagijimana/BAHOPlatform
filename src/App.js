@@ -7,6 +7,7 @@ import {BrowserRouter as Router , Routes, Route} from "react-router-dom";
 import Contact from "./components/pages/contact/Contact";
 import Login from "./components/pages/login/Login";
 import Signup from "./components/pages/signup/Signup";
+import Dashboard from "./components/dashboard/homeDashboard/Dashboard";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path ="/contact" element={<Contact />} />
           <Route path = "/login" element ={<Login />} />
           <Route path ="/signup" element ={<Signup />} />
+          <Route path= "/dashboard" element ={<Dashboard />} />
         </Routes>
       </Router>
 

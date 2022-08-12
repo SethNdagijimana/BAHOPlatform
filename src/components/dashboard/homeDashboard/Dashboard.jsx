@@ -1,10 +1,13 @@
 import React from 'react';
 import "./Dashboard.scss";
+import LeftMenu from "../left-menu/index";
+// import Questions from "../middle-menu/index";
 
 function Dashboard() {
   return (
     <div>
-        <h1>Dashboard</h1>
+       <LeftMenu />
+       {/* <Questions /> */}
 
     </div>
   )
